@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 1px black;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/* NAVBAR */
+#logo{
+    margin-right: 5%;
+}
+.blue-bold, .navbar-toggler{
+    font-weight: 900 !important;
+    color: steelblue !important;
+    /* backdrop-filter: blur(1.5px); */
+    background-color: white;
+}
+
+/* PRODUCTOS */
+#products{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    margin-bottom: 10px;
+    height: fit-content !important;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    object-fit: contain !important;
+    max-width:100%;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.497);
+}
+.mercado-libre{
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+    border-radius: 10px;
+    background-image: url("./IMG/mercado-libre.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+/* NAVIGATION */
+#navigation{
+    display: flex;
+    justify-content: center;
+}
