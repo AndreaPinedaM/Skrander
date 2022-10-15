@@ -82,3 +82,9 @@ $(document).ready(function(){
     $("#products").css('margin-top', 'navHeight')
 });
 
+
+const likes= document.getElementsByClassName("material-symbols-outlined");
+
+likes[0].addEventListener("click",()=>{
+	likes[0].classList.toggle("filled-like");
+});	
